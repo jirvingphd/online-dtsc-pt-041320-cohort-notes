@@ -124,3 +124,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .DS_Store
+Mod 3/mod_3_project/example_analysis/globalterrorismdb_0718dist.csv
