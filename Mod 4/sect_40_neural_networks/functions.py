@@ -32,6 +32,7 @@ def tanh(x, derivative=False):
 def relu(x, derivative=False):
     f = np.zeros(len(x))
     if (derivative == True):
+        for i in range(0, len(x)):
             if x[i] > 0:
                 f[i] = 1  
             else:
